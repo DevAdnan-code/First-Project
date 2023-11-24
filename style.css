@@ -1,0 +1,215 @@
+button {
+    margin: 20px;
+  }
+  .custom-btn {
+      align-items: center;
+      background-color: #fff;
+    width: 130px;
+    height: 40px;
+    color: #fff;
+    border-radius: 5px;
+    padding: 18px 67px 40px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
+    background: transparent;
+    cursor: pointer;
+    transition: all 1.9s ease;
+    position: relative;
+    display: inline-block;
+     box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+     7px 7px 20px 0px rgba(0,0,0,.1),
+     4px 4px 5px 0px rgba(0,0,0,.1);
+    outline: none;
+  }
+  
+  
+      body {
+      background-color: #ffffff;
+      font-family: Arial, sans-serif,;
+      margin: 0;
+      padding: 0;
+  }
+  #nk{
+      text-align: center;
+      color: rgb(39, 12, 238);
+     
+      /* text-shadow: 0 0 10px rgb(255, 255, 255); */
+      box-shadow: 0 0 10px rgb(222, 147, 7);
+  }
+  #nk:hover {
+    scroll-behavior:inherit;
+    color:orange;
+  }
+  
+  .form-card {
+      background-color:rgb(246, 246, 252);
+      width: 80%;
+      max-width: 400px;
+      padding: 20px;
+      margin: 0 auto;
+      border-radius: 10px;
+      box-shadow: 0 0 12px rgb(39, 12, 238);
+       color: orange; 
+  }
+  
+  h1 {
+      color: orange;
+      font-size: 24px;
+  }
+  
+  label {
+      display: block;
+      margin-top: 10px;
+      color: orange;
+  }
+  
+  input,
+  select {
+      width: 100%;
+      padding: 5px;
+      margin-top: 5px;
+      border: 1px solid orange;
+      border-radius: 15px;
+  }
+  
+  input[type="submit"] {
+      background-color: orange;
+      color: black;
+      border: none;
+      padding: 10px px 20px;
+      margin-top: 10px;
+      cursor: pointer;
+  }
+  
+  @media (max-width: 480px) {
+      .form-card {
+          width: 90%;
+      }
+  }
+  .btn-7 {
+  background: linear-gradient(0deg, rgba(255,151,0,1) 0%, rgba(251,75,2,1) 100%);
+    line-height: 42px;
+    padding: 0;
+    border: none;
+  }
+  .btn-7 span {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+  .btn-7:before,
+  .btn-7:after {
+    position: absolute;
+    content: "";
+    right: 0;
+    bottom: 0;
+    background: rgba(251,75,2,1);
+    box-shadow:
+     -7px -7px 20px 0px rgba(255,255,255,.9),
+     -4px -4px 5px 0px rgba(255,255,255,.9),
+     7px 7px 20px 0px rgba(0,0,0,.2),
+     4px 4px 5px 0px rgba(0,0,0,.3);
+    transition: all 0.3s ease;
+  }
+  .btn-7:before{
+     height: 0%;
+     width: 2px;
+  }
+  .btn-7:after {
+    width: 0%;
+    height: 2px;
+  }
+  .btn-7:hover{
+    color: rgba(251,75,2,1);
+    background: transparent;
+  }
+  .btn-7:hover:before {
+    height: 100%;
+  }
+  .btn-7:hover:after {
+    width: 100%;
+  }
+  .btn-7 span:before,
+  .btn-7 span:after {
+    position: absolute;
+    content: "";
+    left: 0;
+    top: 0;
+    background: rgba(251,75,2,1);
+    box-shadow:
+     -7px -7px 20px 0px rgba(255,255,255,.9),
+     -4px -4px 5px 0px rgba(255,255,255,.9),
+     7px 7px 20px 0px rgba(0,0,0,.2),
+     4px 4px 5px 0px rgba(0,0,0,.3);
+    transition: all 0.3s ease;
+  }
+  .btn-7 span:before {
+    width: 2px;
+    height: 0%;
+  }
+  .btn-7 span:after {
+    height: 2px;
+    width: 0%;
+  }
+  .btn-7 span:hover:before {
+    height: 100%;
+  }
+  .btn-7 span:hover:after {
+    width: 100%;
+  }
+  
+  
+  
+  @media (max-width: 768px) {
+    .form-card {
+        width: 90%;
+        padding: 10px;
+    }
+    .custom-btn {
+        width: 100%;
+        font-size: 16px;
+    }
+    input, select {
+        width: 100%;
+        padding: 10px;
+    } 
+} 
+
+@media (max-width: 480px) {
+    .form-card {
+        width: 90%;
+        padding: 10px;
+    }
+    .custom-btn {
+        width: 100%;
+        font-size: 16px;
+    }
+    input, select {
+        width: 100%;
+        padding: 10px;
+    }
+}
+@media (max-width: 768px) {
+    .form-card {
+        width: 90%;
+        padding: 10px;
+    }
+    .custom-btn {
+        width: 100%;
+        font-size: 16px;
+    }
+    input, select {
+        width: 100%;
+        padding: 10px;
+    }
+    h1 {
+        font-size: 20px;
+    }
+    label {
+        margin-top: 5px;
+    }
+    input[type="submit"] {
+        margin-top: 10px;
+    }
+}
