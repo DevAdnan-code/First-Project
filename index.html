@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+ <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="form-card">
+    <div id="save" style="color:green;font-size:14px;text-align: center;">
+
+    </div>
+    <h1 id="nk">N.K Payment Access</h1>
+    <form method="POST" id="form">
+      <label for="date"><i class="fa-light fa-calendar"></i>Date:</label>
+      <input type="date" id="date" name="date" required>
+
+      <label for="party_name"><i class="fa-solid fa-user"></i>Party Name:</label>
+      <input type="text" id="party_name" name="party_name" required>
+
+      <label for="transfer">Transfer:</label>
+      <select id="transfer" name="transfer" required>
+        <option value="PM">PM</option>
+        <option value="DK">DK</option>
+        <option value="HM">HM</option>
+        <option value="Googlepay">Googlepay</option>
+        <option value="Phonepay">Phonepay</option>
+        <option value="Paytm">Paytm</option>
+        <option value="Vptel">Vptel</option>
+        <option value="RK">RK</option>
+      </select>
+
+      <label for="city">City:</label>
+      <input type="text" id="city" name="city" required>
+
+      <label for="amount">Amount:</label>
+      <input type="number" id="amount" name="Amount" required>
+
+      <input type="submit" value="Submit" name="btn" class="custom-btn btn-7">
+    </form>
+   
+  </div>
+ <h5 style="color:rgb(57, 50, 42);text-align: center;">Devlope By<a href="">Adnan</a> </h5>
+ 
+    
+
+</body>
+</html>  
